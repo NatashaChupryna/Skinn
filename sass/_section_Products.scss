@@ -1,0 +1,68 @@
+.products{
+    padding-top: 90px;
+
+}
+.products-container{
+    text-align: center;
+}
+.products-title{
+    font-family: 'Style Script', cursive;
+    font-weight: 400;
+font-size: 137px;
+line-height: 0.9;
+color: #68513F;
+margin-bottom: 5px;
+}
+
+.products-uppertitle{
+    font-weight: 300;
+font-size: 65px;
+line-height: 1.5;
+margin-bottom: 50px;
+}
+
+.product-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+.product-item{
+    flex-basis: calc(( 100% - 42px) / 3);
+    background-color: #DACEC6;
+    padding: 10px;
+    text-align: start;
+
+    &:hover,
+    &:focus{
+       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}
+
+.product-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.category, .price {
+    font-weight: 400;
+font-size: 13px;
+line-height: 1,53;
+}
+.name{
+    font-weight: 400;
+font-size: 19px;
+line-height: 1.36;
+margin-top: 6px;
+}
+.product-btn{
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.42;
+color: #68513F;
+border: none;
+background-color: #F1EBE7;
+padding: 13px 117px;
+margin-top: 40px;
+}

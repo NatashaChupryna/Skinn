@@ -1,0 +1,46 @@
+.hero{
+padding-top: 150px;
+padding-bottom: 273px;
+background-position: right center;
+background-repeat: no-repeat;
+background-size: 938px;
+background-image: url(../images/hero/img@1x.jpg);
+
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx){
+background-image: url(../images/hero/img@2x.jpg)
+  }
+}
+
+.hero-title{
+    position: relative;
+font-style: normal;
+font-weight: 300;
+font-size: 88px;
+line-height: 126px;
+margin-bottom: 45px;
+}
+
+.hero-title--accent{
+    position: absolute;
+       left: 38%;
+    top: 60%;
+    font-family: 'Style Script', cursive;
+font-weight: 300;
+font-size: 175px;
+line-height: 126px;
+color: #68513F;
+transform: rotate(5.54deg);
+}
+
+.hero-btn{
+    color: #68513F;
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.42;
+background-color: #F1EBE7;
+border: 1px solid #DACEC6;
+padding: 13px 21px;
+
+}

@@ -1,0 +1,54 @@
+.skinnBlog{
+    padding-top: 80px;
+    padding-bottom: 130px;
+}
+
+.skinnBlog-container{
+    text-align: center;
+}
+
+.skinnBlog-title{
+    margin-bottom: 50px;
+    font-weight: 300;
+font-size: 66px;
+line-height: 1.5;
+}
+
+.skinnBlog-list{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.skinnBlog-item{
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+.skinnBlog-text--wrap{
+    text-align: left;
+}
+
+.skinnBlog-text{
+    font-weight: 300;
+font-size: 28px;
+line-height: 1.3;
+
+&:first-child{
+    margin-bottom: 58px;
+}
+
+&:last-child{
+    margin-bottom: 95px;
+}
+}
+
+.skinnBlog-btn{
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.4;
+color: #68513F;
+padding: 13px 21px;
+background-color: #F1EBE7;
+border: 1px solid #DACEC6;
+border-radius: 20px;
+}

@@ -1,0 +1,44 @@
+.header{
+    padding: 40px 0;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav{
+     display: flex;
+    align-items: center;
+    margin-left: 400px;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-item{
+font-weight: 400;
+font-size: 17px;
+line-height: 1.17;
+}
+
+.basket{
+    margin-left: auto;
+      display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.basket-card{
+font-weight: 400;
+font-size: 17px;
+line-height: 1.17;
+width: 24px;
+        height: 24px;
+        padding: 2px 10px;
+         background-color: #E7DED8;
+         cursor: pointer;
+}

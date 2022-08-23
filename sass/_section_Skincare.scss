@@ -1,0 +1,75 @@
+.skincare{
+     position: relative; 
+    padding-top: 240px;
+padding-bottom: 332px;}
+
+.skincare-container{
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+}
+
+
+.img-list{display: flex;
+}
+
+.img-item{
+    position: absolute;
+    &:nth-child(1){
+    top: 100px;
+}
+    
+     &:nth-child(2){
+    top: 20px;
+    right: 550px;
+    }
+     &:nth-child(3){
+    bottom: 230px;
+    left: 150px;
+    }
+     &:nth-child(4){
+           top: 320px;
+    right: 250px;
+}
+    
+     &:nth-child(5){
+        right: 180px;
+        bottom: 160px;
+    }
+}
+
+.skincare-title{   
+    font-weight: 300;
+font-size: 65px;
+line-height: 1.5;
+margin-bottom: 180px;}
+
+.skincare-title--accent{
+        position: absolute;
+       left: 38%;
+    top: 35%;
+    font-family: 'Style Script', cursive;
+font-weight: 300;
+font-size: 175px;
+line-height: 126px;
+color: #68513F;
+transform: rotate(-5.08deg);
+}
+
+.text{
+      font-weight: 400;
+  font-size: 20px;
+  line-height: 1.8;
+    margin-bottom: 45px;
+}
+
+.btn{
+        font-weight: 400;
+font-size: 14px;
+line-height: 1.4;
+color: #68513F;
+padding: 13px 21px;
+background-color: #F1EBE7;
+border: 1px solid #DACEC6;
+border-radius: 20px;
+}

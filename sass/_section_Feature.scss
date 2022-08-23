@@ -1,0 +1,51 @@
+.feature {
+  padding-top: 120px;
+}
+
+.feature-container {
+  display: flex;
+  gap: 100px;
+}
+
+.feature-img {
+  width: 620px;
+}
+
+.feature-title--wrap {
+  position: relative;
+  text-align: center;
+  width: 620px;
+}
+
+.feature-title {
+  font-family: "Style Script";
+  font-weight: 400;
+  font-size: 137px;
+  line-height: 0.82;
+  color: #68513f;
+  margin-bottom: 9px;
+}
+
+.feature-uppertitle {
+  font-weight: 300;
+  font-size: 70px;
+  line-height: 1.4;
+    margin-bottom: 35px;
+}
+
+.feature-text {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.feature-btn {
+  color: #68513f;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42;
+  background-color: #f1ebe7;
+  border: 1px solid #dacec6;
+  padding: 12px 21px;
+}

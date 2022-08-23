@@ -1,1 +1,1 @@
-# Skinn
+Skinn. Facial cosmetics website.
