@@ -23,13 +23,11 @@ flex-shrink: 0.8;
 }
 
 .categories-img{
-    
-    height: 518px;
+    height: 418px;
     margin: 0;
+    width: 400px;
 
-    &:nth-child(2){
-        width: 480px;
-    }
+  
 }
 
 .categories-overlay{

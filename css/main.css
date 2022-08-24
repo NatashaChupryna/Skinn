@@ -63,6 +63,8 @@
 }
 
 .hero {
+  margin-right: auto;
+  margin-left: auto;
   padding-top: 150px;
   padding-bottom: 273px;
   background-position: right center;
@@ -133,7 +135,7 @@
   position: absolute;
 }
 .img-item:nth-child(1) {
-  left: -30px;
+  left: -70px;
   top: -120px;
 }
 .img-item:nth-child(2) {
@@ -162,8 +164,8 @@
 
 .skincare-title--accent {
   position: absolute;
-  left: 38%;
-  top: 35%;
+  left: 30%;
+  top: 25%;
   font-family: "Style Script", cursive;
   font-weight: 300;
   font-size: 175px;
@@ -418,11 +420,9 @@
 }
 
 .categories-img {
-  height: 518px;
+  height: 418px;
   margin: 0;
-}
-.categories-img:nth-child(2) {
-  width: 480px;
+  width: 400px;
 }
 
 .categories-overlay {
@@ -614,7 +614,7 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1250px;
   padding-right: 50px;
   padding-left: 50px;
   margin-right: auto;
