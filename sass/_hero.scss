@@ -13,8 +13,10 @@ background-image: url(../images/hero/img@2x.jpg)
   }
 }
 
+.hero-container{position: relative;}
+
 .hero-title{
-    position: relative;
+
 font-style: normal;
 font-weight: 300;
 font-size: 88px;
@@ -25,7 +27,7 @@ margin-bottom: 45px;
 .hero-title--accent{
     position: absolute;
        left: 38%;
-    top: 60%;
+    top: 80%;
     font-family: 'Style Script', cursive;
 font-weight: 300;
 font-size: 175px;
